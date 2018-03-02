@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HeroesService, Heroe } from '../../services/heroes.service';
-import { Router } from '@angular/router';
+
+import { Router } from '@angular/router'; //Importacion necesaria para funcion verHeroe()
 
 
 @Component({
